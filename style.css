@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+body{
+    background-color: white;
+}
+
+*{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(36, 100%, 99%)
+}
+
+p{
+    font-size: 15;
+ }
+
+#w{
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+.tema{
+    font-weight: bolder;
+}
+
+.temas{
+    background-color: hsl(240, 100%, 5%);
+    height: 430px;
+    width: 100%;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+.new{
+    color: hsl(35, 77%, 62%);
+    font-weight: 700;
+}
+
+.subt{
+    color: white;
+    font-weight: 700;
+}
+
+.info{
+    color: hsl(233, 8%, 79%);
+    font-weight: 400;
+}
+
+.text{
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+}
+
+.words:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: hsl(35, 77%, 62%);
+}
+
+.btn{
+    background-color: black;
+}
